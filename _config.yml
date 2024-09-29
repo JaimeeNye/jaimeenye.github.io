@@ -1,0 +1,45 @@
+title: Jaimee Nye
+author: Jaimee Nye
+email: nyejaimee92@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+ Jaimee Nye | Full Stack Enginer. Entrepreneur. Creative Professional
+show_excerpts: true # set to true to show excerpts on the homepage
+remote_theme: samarsault/texture
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: Jaimee Nye
+  tagline: Full Stack Enginer. Entrepreneur. Creative Professional.
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: true
+  showPicker: false
+
+  navigation:
+    - title: Home
+      url: "/"
+    - title: About
+      url: "/about"
+    - title: Projects
+      url: "/projects"
+    - title: Links
+      url: "/links"
+ 
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+# theme: texture
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+#  - jekyll-feed

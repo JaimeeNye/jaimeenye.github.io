@@ -1,0 +1,31 @@
+<div class="container">
+	<h1>{{ site.texture.title }}</h1>
+	<h2>{{ site.texture.tagline }}</h2>
+	<ul class="social">
+		{%- if site.texture.social_links.github -%}
+			<a href="https://github.com/{{ site.texture.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
+		{%- endif -%}
+		{%- if site.texture.social_links.linkedIn -%}
+			<a href="https://linkedin.com/{{ site.texture.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
+		{%- endif -%}
+		{%- if site.texture.social_links.twitter -%}
+			<a href="https://twitter.com/{{ site.texture.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
+		{%- endif -%}
+		{%- if site.texture.social_links.mail -%}
+			<a href="mailto:{{ site.texture.social_links.mail }}"><li><i class="icon-mail-alt"></i></li></a>
+		{%- endif -%}
+
+		{%- if site.texture.social_links.vk -%}
+			<a href="https://vk.com/{{ site.texture.social_links.vk }}"><li><i class="icon-vkontakte-rect"></i></li></a>
+		{%- endif -%}
+		{%- if site.texture.social_links.telegram -%}
+			<a href="https://t.me/{{ site.texture.social_links.telegram }}"><li><i class="icon-telegram"></i></li></a>
+		{%- endif -%}
+		{%- if site.texture.social_links.wechat -%}
+			<a href="/resume_cn_wechat.pdf"><li><i class="icon-wechat"></i></li></a>
+		{%- endif -%}
+		{%- if site.texture.social_links.kaggle -%}
+			<a href="https://kaggle.com/{{ site.texture.social_links.kaggle }}"><li><i class="icon-kaggle"></i></li></a>
+		{%- endif -%}
+	</ul>
+</div>
